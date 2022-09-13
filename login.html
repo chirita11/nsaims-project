@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <title>NASIMS | Login</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./Images/Logo.png" alt="logo" width="15%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end">
+          <div class="navbar-nav">
+            <a class="nav-link me-3" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link me-3" href="about.html">About</a>
+            <a class="nav-link me-3" href="news.html">News</a>
+            <a class="nav-link me-3 active" href="contact.html">Contact</a>
+            <a class="nav-link btn btn-success text-white py-2 px-5" href="#"
+              >Login</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <h3>Login to your NASIMS Account</h3>
+    </header>
+
+    <div class="top2">
+      <div class="row">
+        <div class="col-md-5 logintext">
+          <h3 class="text-success">
+            For biometrics enrolment, kindly follow the <br />
+            instructions below;
+          </h3>
+          <br />
+          <br />
+          <ol>
+
+            <li> Login to your dashboard and click the "verification" tab</li>
+            <li> Click the “capture your fingerprint” button to download and
+            install the enrolment application</li>
+            
+          <li> After installation, provide the required credentials and click
+            "Proceed".</li>
+            
+            <li> Make sure the fingerprint biometric device is connected, then
+            click on "Begin Enrolment" to launch the enrolment process.</li>
+            
+          <li> Click on the finger to begin the enrolment process</li>
+            
+          <li> Applicants are to enroll their Right thumb, Right index, Left
+            thumb and Left index fingers only for successful enrolment</li>
+                        <li>
+              
+             After successful enrollment, click on “Submit” to save the
+            biometric enrollment</li>
+            
+          </ol>
+            After successful enrolment, please check the "verification" tab of
+            your self service portal to confirm if the capture was successful.
+          </p>
+        </div>
+
+        <div class="col-md-7 sec-login">
+          <form action="action_page.php" method="post">
+            <div class="container">
+              <label for="name"></label>
+              <input
+                type="text"
+                class="user"
+                placeholder="Email/Application ID"
+                name="uname"
+                required
+              />
+              <br />
+              <label for="password"></label>
+              <input
+                type="password"
+                class="user"
+                placeholder="Password"
+                name="psw"
+                required
+              />
+              <label>
+                <input type="checkbox" name="remember" /> Remember me
+              </label>
+              <span class="psw fpass"
+                >Forgot <a class="fpass1" href="#">password?</a></span
+              >
+              <button type="submit" class="button2 btn-success">Proceed</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

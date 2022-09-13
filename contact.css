@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+header {
+  margin: 0 10px;
+  padding: 10rem 5rem 10rem 10px;
+  text-align: center;
+  background-color: #f9ecdc;
+  color: #000;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 9;
+  background-color: white;
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0b0b0b;
+}
+
+.sec-2 {
+  text-align: center;
+}
+
+.sec-7 {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  background-color: #07321b;
+  color: white;
+  text-align: center;
+}

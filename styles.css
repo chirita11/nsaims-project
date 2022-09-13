@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 9;
+  background-color: white;
+  width: 100%;
+}
+
+.sec1 {
+  padding-left: 70px;
+  padding-top: 80px;
+  /* border: 1px solid red; */
+}
+.one,
+.two,
+.three {
+  background-color: #fffbf6;
+}
+
+.logo {
+  height: 25%;
+  width: 25%;
+}
+
+.images {
+  width: 50%;
+  height: 100%;
+  margin-left: 2rem;
+}
+
+.image {
+  width: 80%;
+  height: 90%;
+}
+
+.sec-2 {
+  margin-top: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 35px;
+}
+
+.sec-3 {
+  margin: 2rem 2rem;
+  padding-left: 4rem;
+  padding-right: 10px;
+  /* border: 1px solid red; */
+}
+
+.images3 img {
+  width: 80%;
+  height: 70%;
+  padding: 1rem 5rem;
+  margin-bottom: 12rem;
+  margin-left: 7rem;
+  margin-top: 3rem;
+
+  /* border: 1px solid blue; */
+}
+
+.sec-4 {
+  margin-top: 80px;
+  padding-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 80px;
+  padding-top: 40px;
+  background-color: #f2fcf9;
+  border: 1px solid red;
+}
+
+.standard {
+  margin-left: 70px;
+  border: 1px solid blue;
+}
+
+.images {
+  width: 50%;
+}
+.sec-5 {
+  margin: 3rem 10px 0;
+  padding: 2rem 8rem 1rem;
+  background-color: white;
+}
+
+.news {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  background-color: #0b0b0b;
+  color: white;
+  text-align: center;
+}
+
+.sec-6 {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 35px;
+  background-color: white;
+  text-align: center;
+}
+.sec-7 {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  background-color: #07321b;
+  color: white;
+  text-align: center;
+}
+
+div.card {
+  width: 50%;
+  box-shadow: 0 4px 6px 0;
+}
